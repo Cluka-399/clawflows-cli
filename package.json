@@ -1,0 +1,38 @@
+{
+  "name": "clawflows",
+  "version": "0.1.0",
+  "description": "CLI for ClawFlows - search, install, and run multi-skill automations for OpenClaw agents",
+  "main": "lib/index.mjs",
+  "type": "module",
+  "bin": {
+    "clawflows": "bin/clawflows.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "clawflows",
+    "openclaw",
+    "clawdbot",
+    "automation",
+    "workflow",
+    "agent",
+    "ai"
+  ],
+  "author": "Cluka <cluka@agentmail.to>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cluka-399/clawflows-cli.git"
+  },
+  "homepage": "https://clawflows.com",
+  "bugs": {
+    "url": "https://github.com/Cluka-399/clawflows-cli/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+}
