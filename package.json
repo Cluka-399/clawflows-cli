@@ -1,6 +1,6 @@
 {
   "name": "clawflows",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for ClawFlows - search, install, and run multi-skill automations for OpenClaw agents",
   "main": "lib/index.mjs",
   "type": "module",
